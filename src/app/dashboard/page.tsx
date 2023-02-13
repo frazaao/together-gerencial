@@ -22,7 +22,7 @@ export default function Dashboard() {
     const [errorMessage, setErrorMessage] = useState("");
 
     async function createVegaFromSchema(schema: any) {
-        await vegaEmbedModule(vegaRef.current!, schema);
+        await vegaEmbedModule(vegaRef.current!, {...schema, width: 500, height: 500});
     }
 
     async function fetchData(question: string) {
