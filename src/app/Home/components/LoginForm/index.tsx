@@ -87,7 +87,7 @@ export function LoginForm() {
                     <InputLeftElement>
                         <Icon as={MdLock} color="gray.300" />
                     </InputLeftElement>
-                    <Input {...register("senha")} placeholder="Senha" />
+                    <Input {...register("senha")} placeholder="Senha" type="password" />
                 </InputGroup>
 
                 <Flex align="center" justify="center" gap="2" pt="8">
