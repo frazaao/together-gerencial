@@ -200,7 +200,7 @@ export function AddNewScore({
                                 setValue("trimestre", value as string)
                             }
                             options={trimester}
-                            label="Disciplina"
+                            label="Bimestre"
                             single
                         />
 

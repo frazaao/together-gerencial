@@ -86,7 +86,7 @@ export default function Notas() {
                                         <Th>Aluno</Th>
                                         <Th>Turma</Th>
                                         <Th>Disciplina</Th>
-                                        <Th>Trimestre</Th>
+                                        <Th>Bimestre</Th>
                                         <Th>Criado em</Th>
                                     </Tr>
                                 </Thead>
